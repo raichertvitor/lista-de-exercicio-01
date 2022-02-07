@@ -9,10 +9,10 @@ namespace exercicio_5
             Console.Write("Digite seu salário: ");
             double salario = Convert.ToDouble(Console.ReadLine());
             double aumento = salario + salario * 0.15;
-            double final = aumento - aumento * 0.08;
+            double Salariofinal = aumento - aumento * 0.08;
             Console.WriteLine($"\nSalário: R$ {salario}");
             Console.WriteLine($"Salário com aumento de 15%: R$ {aumento}");
-            Console.WriteLine($"Salário final (com descontos): R$ {final}");
+            Console.WriteLine($"Salário final (com descontos): R$ {Salariofinal}");
         }
     }
 }
